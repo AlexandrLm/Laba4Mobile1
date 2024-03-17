@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                     a = true
                 }
             }
-            if (!a)12
+            if (!a)
                 Toast.makeText(this, "Не правильно введен логин или пароль", Toast.LENGTH_SHORT).show()
         }
         else
