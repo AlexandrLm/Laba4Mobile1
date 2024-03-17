@@ -28,11 +28,13 @@ class MainActivity : AppCompatActivity() {
         login = findViewById(R.id.loginText)
         password = findViewById(R.id.editTextTextPassword)
 
-        users = arrayOf(User("admin","admin","Админ сервиса"),
+        users = arrayOf(
+            User("admin","admin","Админ сервиса"),
             User("user1","1234","Системный админ сервиса"),
             User("user2","user2","user2 - данного сервиса"),
             User("user3","user3","user3 - данного сервиса"),
-            User("user4","user4","user4 - данного сервиса"),)
+            User("user4","user4","user4 - данного сервиса"),
+            )
     }
 
     fun loginButtonPress(v : View){
